@@ -15,10 +15,12 @@ add('writable_dirs', []);
 
 host('prodclientdomaineachat.privianet.com')
     ->set('remote_user', 'deployer')
+    ->set('port', '1402')
     ->set('deploy_path', '~/client.domaine-achat.fr')
     ->set('branch', 'main');
 host('devclientdomaineachat.privianet.com')
     ->set('remote_user', 'deployer')
+    ->set('port', '1402')
     ->set('deploy_path', '~/client.domaine-achat.fr')
     ->set('branch', 'dev');
 
