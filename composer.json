@@ -64,4 +64,7 @@
             "require": "6.4.*"
         }
     }
+    "require-dev": {
+        "deployer/deployer": "^7.5"
+    }
 }
