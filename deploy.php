@@ -27,7 +27,7 @@ host('devclientdomaineachat.privianet.com')
     ->set('deploy_path', '~/client.domaine-achat.fr')
     ->set('branch', 'dev');
     ->setLabels([
-        'env' => 'prod',
+        'env' => 'dev',
     ]);
 
 // Hooks

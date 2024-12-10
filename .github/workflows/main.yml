@@ -26,5 +26,4 @@ jobs:
         uses: deployphp/action@v1
         with:
           dep: deploy all
-          deployer-binary: "bin/dep"
           private-key: ${{ secrets.PRIVATE_KEY }}
